@@ -58,7 +58,7 @@ setup(
         "Topic :: Scientific/Engineering :: Physics",
         "Development Status :: 5 - Production/Stable",
     ],
-    setup_requires=["numpy>=1.16.0"],
+    setup_requires=["numpy~=1.22.4"],
     url="https://github.com/nikolasibalic/ARC-Alkali-Rydberg-Calculator",
     download_url="https://github.com/nikolasibalic/ARC-Alkali-Rydberg-Calculator/archive/refs/tags/v3.2.0.tar.gz",
     author="Nikola Sibalic,  Elizabeth J. Robertson, Jonathan D. Pritchard, Robert M. Potvliege, Matthew P. A. Jones, Charles S. Adams, Kevin J. Weatherill",
@@ -69,7 +69,7 @@ setup(
     },
     install_requires=[
         "scipy>=0.18.1",
-        "numpy>=1.16.0",
+        "numpynumpy~=1.22.4",
         "matplotlib>=1.5.3",
         "sympy>=1.1.1",
         "lmfit>=0.9.0",
